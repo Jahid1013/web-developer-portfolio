@@ -1,0 +1,52 @@
+body {
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 300 to 800
+
+    .open-sans-<uniquifier> {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+}
+
+.text-primary {
+    color: coral;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav-title {
+    color: black;
+    font-weight: 800px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    color: white;
+    background-color: coral;
+    border: 0px;
+    padding: 15px 35px;
+    font-weight: 700;
+
+}
